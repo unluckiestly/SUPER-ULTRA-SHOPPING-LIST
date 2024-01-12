@@ -57,9 +57,9 @@ class ShoppingListManager:
         try:
             with open(file_path, 'w') as file:
                 file.write(row)
-            print(f"Файл успешно создан на рабочем столе.")
+            print(f"file succesfully created.")
         except Exception as e:
-            print(f"Произошла ошибка при создании файла: {e}")
+            print(f"error occured while creating file: {e}")
 
 
 
